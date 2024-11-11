@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="9zM0n2NxYWGgqqg0T72o">
+    <mxGraphModel dx="1952" dy="810" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="givz4KdngpfAiL7EU7P7-1" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-69" y="291" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-3" value="Xem bolg chia sẻ về hồ cá Koi" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142" y="386" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-4" value="Đăng ký tài khoản để trở thành Customer" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="204" y="289" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-5" value="Nhập thông tin cá nhân để tạo tài khoản" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="422" y="224" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-6" value="Xác nhận email hoặc số điện thoại để hoàn tất đăng ký" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="336" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-8" value="Xem thông tin, các mẫu thiết kế, dự án" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="134" y="188" width="140" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="givz4KdngpfAiL7EU7P7-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="325" as="sourcePoint" />
+            <mxPoint x="72" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="givz4KdngpfAiL7EU7P7-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="326" as="sourcePoint" />
+            <mxPoint x="91" y="333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="givz4KdngpfAiL7EU7P7-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.052;entryY=0.29;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="givz4KdngpfAiL7EU7P7-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-15" y="325" as="sourcePoint" />
+            <mxPoint x="78" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFCWXTHjDkFEVpaXfhOH-3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="givz4KdngpfAiL7EU7P7-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="341" y="311" as="sourcePoint" />
+            <mxPoint x="501" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFCWXTHjDkFEVpaXfhOH-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="givz4KdngpfAiL7EU7P7-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="337" as="sourcePoint" />
+            <mxPoint x="500" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFCWXTHjDkFEVpaXfhOH-6" value="Use case Guest" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="109" width="539" height="417" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
