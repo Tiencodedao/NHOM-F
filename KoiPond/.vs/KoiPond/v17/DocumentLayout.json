@@ -1,13 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Asp net\\Koi Pond Construction\\KoiPond\\",
+  "WorkspaceRootPath": "D:\\Koi Pond Construction (2)\\KoiPond\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\asp net\\koi pond construction\\koipond\\views\\yeucauthicongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\koi pond construction (2)\\koipond\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\koi pond construction (2)\\koipond\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\koi pond construction (2)\\koipond\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\koi pond construction (2)\\koipond\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\koi pond construction (2)\\koipond\\views\\yeucauthicongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\yeucauthicongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\asp net\\koi pond construction\\koipond\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\koi pond construction (2)\\koipond\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -21,42 +37,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Asp net\\Koi Pond Construction\\KoiPond\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Asp net\\Koi Pond Construction\\KoiPond\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAK8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-09T16:13:28.4Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Koi Pond Construction (2)\\KoiPond\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Koi Pond Construction (2)\\KoiPond\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:10:25.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAADwvzEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-12T17:06:15.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAALgAAAAAAAAAAAAuwMsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T17:04:01.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T17:03:38.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAK8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-09T16:13:28.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Asp net\\Koi Pond Construction\\KoiPond\\Views\\YeuCauThiCongs\\Create.cshtml",
+              "DocumentMoniker": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\YeuCauThiCongs\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\YeuCauThiCongs\\Create.cshtml",
-              "ToolTip": "D:\\Asp net\\Koi Pond Construction\\KoiPond\\Views\\YeuCauThiCongs\\Create.cshtml",
+              "ToolTip": "D:\\Koi Pond Construction (2)\\KoiPond\\Views\\YeuCauThiCongs\\Create.cshtml",
               "RelativeToolTip": "Views\\YeuCauThiCongs\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-09T08:35:15.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "about.html",
               "DocumentMoniker": "D:\\Asp net\\Template\\construction-company-website-template-free\\about.html",
-              "RelativeDocumentMoniker": "..\\..\\Template\\construction-company-website-template-free\\about.html",
+              "RelativeDocumentMoniker": "..\\..\\Asp net\\Template\\construction-company-website-template-free\\about.html",
               "ToolTip": "D:\\Asp net\\Template\\construction-company-website-template-free\\about.html",
-              "RelativeToolTip": "..\\..\\Template\\construction-company-website-template-free\\about.html",
+              "RelativeToolTip": "..\\..\\Asp net\\Template\\construction-company-website-template-free\\about.html",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwCYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-08T02:23:44.799Z"

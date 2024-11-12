@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoiPond")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23d8a26c3e36a5a38b0f5f9f450e7de2ab5a878f")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoiPond")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoiPond")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
