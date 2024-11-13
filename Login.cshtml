@@ -1,0 +1,255 @@
+﻿@{
+    ViewBag.Title = "Đăng Nhập";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/koi-pond-style.css" />
+    <title>@ViewBag.Title</title>
+    <style>
+       body {
+    background-image: url('@Url.Content("~/images/background/koi-pond.jpg")'); /* Hình nền hồ cá koi */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Verdana', sans-serif;
+    overflow: hidden; /* Giúp giữ giao diện gọn gàng hơn */
+}
+
+.background-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    z-index: 1;
+}
+
+.title {
+    font-size: 70px; /* Kích thước chữ lớn hơn cho cảm giác trang trọng */
+    color: #ff6600; /* Màu cam ấm, gợi nhớ đến sự sống động trong một hồ cá koi */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7), 0 0 25px rgba(255, 102, 0, 0.8), 0 0 10px rgba(255, 102, 0, 0.6); /* Tạo hiệu ứng ánh sáng nổi bật */
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: floatUp 2s infinite alternate; /* Hiệu ứng nhấp nhô nhẹ nhàng như cá koi bơi lội */
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Nền trắng mờ, nhẹ nhàng */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Tạo bóng mờ mềm mại */
+    width: 320px;
+    text-align: center;
+    color: #333;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.login-box h2 {
+    color: #0066cc; /* Màu xanh biển, giống màu nước hồ koi */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #444;
+}
+
+.form-control {
+    color: #333;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #0066cc; /* Màu xanh biển dịu mắt */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004c99;
+}
+
+.koi {
+    position: absolute;
+    width: 60px;
+    z-index: 1;
+    animation: koiSwim 10s infinite linear; /* Hiệu ứng bơi cá koi */
+}
+
+@keyframes koiSwim {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(20%) translateY(20%);
+    }
+    50% {
+        transform: translateX(40%) translateY(-30%);
+    }
+    75% {
+        transform: translateX(60%) translateY(10%);
+    }
+    100% {
+        transform: translateX(80%) translateY(0);
+    }
+}
+
+/* Tạo các bóng nước trong suốt để làm nền thêm phần sinh động */
+.water-bubble {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    animation: bubbleUp 5s infinite ease-in-out;
+}
+
+@keyframes bubbleUp {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    100% {
+        transform: scale(1.5) translateY(-100px);
+    }
+}
+
+/* Tạo các hiệu ứng lượn sóng xung quanh ô đăng nhập */
+.login-box::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px 5px rgba(255, 102, 0, 0.6);
+    animation: bubbleUp 7s infinite alternate;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <h1 class="title">Koi Breeding Games</h1> <!-- Tiêu đề chính -->
+        <div class="login-box">
+            <h2>Đăng Nhập</h2>
+            <form asp-action="Login" method="post">
+                <div class="form-group">
+                    <label for="username">Tên Người Dùng</label>
+                    <input type="text" name="username" id="username" class="form-control" placeholder="Nhập tên người dùng" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Mật Khẩu</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Nhập mật khẩu" required>
+                </div>
+
+                <button type="submit" class="btn">Đăng Nhập</button>
+            </form>
+
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+            }
+
+            <p>Không có tài khoản? <a href="/Account/Register">Đăng Ký Tài Khoản</a></p>
+        </div>
+
+        <!-- Phần cá koi bơi lội -->
+        <div id="koiContainer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden;"></div>
+
+        <script>
+    // Đường dẫn đến các hình ảnh cá koi, sử dụng các hình ảnh cá koi phù hợp với giao diện
+    const koiImages = [
+        '@Url.Content("~/images/koi/koi1.png")',  // Hình ảnh cá koi 1
+        '@Url.Content("~/images/koi/koi2.png")',  // Hình ảnh cá koi 2
+        '@Url.Content("~/images/koi/koi3.png")',  // Hình ảnh cá koi 3
+        '@Url.Content("~/images/koi/koi4.png")'   // Hình ảnh cá koi 4
+    ];
+
+    const koiContainer = document.getElementById('koiContainer');
+
+    // Tạo một con cá koi mới
+    function createKoi() {
+        const koi = document.createElement('img');
+        const randomIndex = Math.floor(Math.random() * koiImages.length);  // Chọn ngẫu nhiên một con cá koi
+        koi.src = koiImages[randomIndex];
+        koi.classList.add('koi');
+
+        // Đặt vị trí ngẫu nhiên cho cá koi
+        koi.style.position = 'absolute';
+        koi.style.top = Math.random() * 100 + '%';   // Vị trí ngẫu nhiên theo chiều dọc
+        koi.style.left = Math.random() * 100 + '%';  // Vị trí ngẫu nhiên theo chiều ngang
+        koi.style.zIndex = 2;
+
+        koiContainer.appendChild(koi);
+
+        // Di chuyển cá koi
+        moveKoi(koi);
+    }
+
+    // Hàm di chuyển cá koi
+    function moveKoi(koi) {
+        const duration = Math.random() * 3000 + 3000; // Thời gian di chuyển ngẫu nhiên từ 3 đến 6 giây
+        const targetX = Math.random() * 100;  // Di chuyển ngẫu nhiên theo chiều ngang
+        const targetY = Math.random() * 100;  // Di chuyển ngẫu nhiên theo chiều dọc
+
+        koi.animate([
+            { transform: 'translate(0, 0)' },
+            { transform: `translate(${targetX}%, ${targetY}%)` }
+        ], {
+            duration: duration,
+            easing: 'ease-in-out',
+            fill: 'forwards'
+        }).onfinish = () => {
+            koi.remove(); // Xóa cá koi sau khi di chuyển xong
+            createKoi(); // Tạo cá koi mới
+        };
+    }
+
+    // Tạo cá koi mới mỗi giây
+    setInterval(createKoi, 1000);
+
+        </script>
+    </div>
+</body>
+</html>
