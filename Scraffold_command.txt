@@ -1,1 +1,0 @@
-Scaffold-DbContext "Data Source=.\\sqlexpress;Initial Catalog=KoiPond;User ID=sa;Password=sa;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -context ApplicationDbContext -force
