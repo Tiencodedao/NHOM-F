@@ -1,6 +1,0 @@
-Giao diện Home
-- Giao diện giới thiệu công ty
-- Yêu cầu thi công
-- Yêu cầu dịch vụ chăm sóc
-- Giao diện quản trị: quản lý nhân viên, khách hang, sản phẩm, tích điểm khuyến mãi, quản lý hồ sơ thi công
-- Giao diện đăng nhập đăng kí
