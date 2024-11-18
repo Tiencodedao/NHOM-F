@@ -1,0 +1,117 @@
+﻿@model KoiPond.Repositories.Models.DanhGiaPhanHoi
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+
+    <script>
+        // Redirect to the homepage after 5 seconds (5000 milliseconds)
+        setTimeout(function () {
+            window.location.href = '@Url.Action("Index", "Home")';
+        }, 5000);
+    </script>
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header">
+    <h1 class="display-3 text-uppercase text-white mb-3">Đánh Giá Phản Hồi</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a href="">Trang chủ</a></h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Đánh Giá</h6>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Form Start -->
+<div class="container-fluid bg-light py-6 px-5">
+    <div class="row gx-5">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="mb-4">
+                <h1 class="display-5 text-uppercase mb-4">Gửi đánh giá của bạn</h1>
+            </div>
+            <p class="mb-5">Chúng tôi rất mong nhận được phản hồi từ bạn để cải thiện dịch vụ.</p>
+            <a class="btn btn-primary py-3 px-5" href="">Learn More</a>
+        </div>
+        <div class="col-lg-8">
+            <div class="bg-white text-center p-5">
+                <form asp-action="Create">
+                    <div class="row g-3">
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="col-12 col-sm-6">
+                            <label asp-for="MaKhachHang" class="control-label">Khách hàng</label>
+                            <select asp-for="MaKhachHang" class="form-control bg-light border-0" asp-items="ViewBag.MaKhachHang" id="MaKhachHang" style="height: 55px;"></select>
+                            <span asp-validation-for="MaKhachHang" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="col-12 col-sm-6">
+                            <label asp-for="MaYeuCauDichVu" class="control-label">Yêu cầu dịch vụ (mã)</label>
+                            <select asp-for="MaYeuCauDichVu" class="form-control bg-light border-0" asp-items="ViewBag.MaYeuCauDichVu" id="MaYeuCauDichVu" style="height: 55px;"></select>
+                            <span asp-validation-for="MaYeuCauDichVu" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <label asp-for="MaYeuCauThiCong" class="control-label">Yêu cầu thi công (mã)</label>
+                            <select asp-for="MaYeuCauThiCong" class="form-control bg-light border-0" asp-items="ViewBag.MaYeuCauThiCong" id="MaYeuCauThiCong" style="height: 55px;"></select>
+                            <span asp-validation-for="MaYeuCauThiCong" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <label>Đánh giá (1* - 5*)</label>
+                            <div id="starRating" class="d-flex align-items-center">
+                                @for (int i = 1; i <= 5; i++)
+                                {
+                                    <button type="button" class="btn btn-outline-warning me-1 star-button" data-value="@i">
+                                        &#9733;
+                                    </button>
+                                }
+                            </div>
+                            <input asp-for="DanhGia" type="hidden" id="DanhGia" />
+                            <span asp-validation-for="DanhGia" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="BinhLuan" class="form-control bg-light border-0" style="height: 55px;" placeholder="Bình luận thêm"/>
+                            <span asp-validation-for="BinhLuan" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <input type="submit" value="Gửi đánh giá" class="btn btn-primary py-3 px-5" />
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Form End -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        // Handle star button click
+        $('.star-button').click(function () {
+            var selectedValue = $(this).data('value');
+            $('#DanhGia').val(selectedValue); // Set the value of the hidden input
+
+            // Update the UI to highlight selected stars
+            $('.star-button').removeClass('btn-warning').addClass('btn-outline-warning');
+            for (var i = 1; i <= selectedValue; i++) {
+                $('.star-button[data-value="' + i + '"]').removeClass('btn-outline-warning').addClass('btn-warning');
+            }
+        });
+    });
+</script>
+

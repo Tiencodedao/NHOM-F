@@ -1,0 +1,90 @@
+﻿@model IEnumerable<KoiPond.Repositories.Models.YeuCauThiCong>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header">
+    <h1 class="display-3 text-uppercase text-white mb-3">Phản hồi yêu cầu</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a href="">Trang chủ</a></h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Phản hồi</h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Thi công</h6>
+    </div>
+</div>
+<!-- Page Header End -->
+
+    <div class="table-responsive p-3 border rounded">
+        <!-- Inner container with padding, border, and rounded corners -->
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        Loại thiết kế
+                    </th>
+                    <th>
+                        Trạng thái
+                    </th>
+                    <th>
+                        Ngày tạo
+                    </th>
+                    <th>
+                        Call back Date
+                    </th>
+                    <th>
+                       Địa chỉ
+                    </th>
+                    <th>
+                        SĐT
+                    </th>
+                    <th>
+                        Diện tích/SL
+                    </th>
+                    <th>
+                        Tên khách hàng
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LoaiThietKe)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TrangThaiYeuCau)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayTao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayCapNhat)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DiaChi)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Sdt)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SoLuong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TenKhachHang)
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.MaYeuCau">Edit</a>
+                            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.MaYeuCau">Details</a>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.MaYeuCau">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

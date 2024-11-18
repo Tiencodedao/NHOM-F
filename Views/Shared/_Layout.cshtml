@@ -1,0 +1,213 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signInManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"]</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link asp-append-version="true" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link asp-append-version="true" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link asp-append-version="true" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link asp-append-version="true" href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link asp-append-version="true" href="~/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link asp-append-version="true" href="~/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link asp-append-version="true" href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link asp-append-version="true" href="~/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navbar Start -->
+        <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
+            <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
+                <a asp-action="Index" asp-controller="Home" class="navbar-brand d-flex align-items-center">
+                    <i class="bi bi-bricks text-primary display-1 me-3"></i>
+                    <div>
+                        <h1 class="m-0 display-4 text-uppercase text-white">KOI POND</h1>
+                        <h2 class="m-0 text-uppercase text-white-50 fs-4">Construction Ordering System</h2>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a asp-action="Index" asp-controller="Home" class="nav-item nav-link">Trang chủ</a>
+                        
+
+                        @if(!User.IsInRole("Admin") && !User.IsInRole("Manager")){
+                            <a asp-controller="Home" asp-action="About" class="nav-item nav-link">Giới Thiệu</a>
+
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dịch vụ</a>
+                                <div class="dropdown-menu">
+                                    <a asp-controller="YeuCauThiCongs" asp-action="Create" class="dropdown-item">Thi công</a>
+                                    <a asp-controller="YeuCauDichVus" asp-action="Create" class="dropdown-item">Chăm sóc</a>
+                                </div>
+                            </div>
+
+                            <a asp-action="Create" asp-controller="DanhGiaPhanHois" class="nav-item nav-link">Đánh giá</a>
+                        }
+                        
+
+                        @if(User.IsInRole("Admin") || User.IsInRole("Manager")){
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Quản trị</a>
+                                <div class="dropdown-menu">
+                                    <a asp-controller="NhanViens" asp-action="Index" class="dropdown-item">Nhân viên</a>
+                                    <a asp-controller="KhachHangs" asp-action="Index" class="dropdown-item">Khách hàng</a>
+                                    <a asp-controller="SanPhams" asp-action="Index" class="dropdown-item">Sản phẩm</a>
+                                    <a asp-controller="DanhGiaPhanHois" asp-action="Index" class="dropdown-item">Feedback</a>
+                                    <a asp-controller="Roles" asp-action="Listroles" class="dropdown-item">Quyền</a>
+                                    <a asp-controller="Users" asp-action="ListUsers" class="dropdown-item">Tài khoản</a>
+                                </div>
+                            </div>
+                        }
+
+                        @if (User.IsInRole("Staff") || User.IsInRole("Manager") || User.IsInRole("Admin"))
+                        {
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Xác nhận yêu cầu</a>
+                                <div class="dropdown-menu">
+                                    <a asp-controller="YeuCauThiCongs" asp-action="Index" class="dropdown-item">Thi công</a>
+                                    <a asp-controller="YeuCauDichVus" asp-action="Index" class="dropdown-item">Chăm sóc</a>
+                                </div>
+                            </div>
+                        }
+
+                        @if (User.IsInRole("Customer") || User.IsInRole("Guest")) {
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Yêu cầu của tôi</a>
+                                <div class="dropdown-menu">
+                                    <a asp-controller="YeuCauThiCongs" asp-action="Index" class="dropdown-item">Thi công</a>
+                                    <a asp-controller="YeuCauDichVus" asp-action="Index" class="dropdown-item">Chăm sóc</a>
+                                </div>
+                            </div>
+
+                        }
+
+                        @if (signInManager.IsSignedIn(User) && User.Identity != null)
+                        {
+                            <form method="post" asp-action="logout" asp-controller="account" class="d-none d-lg-block">
+                                <button type="submit" class="nav-item nav-link bg-primary text-white ms-3">
+                                    Logout, @User.Identity.Name
+                                </button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login" class="nav-item nav-link bg-primary text-white ms-3 d-none d-lg-block">
+                                Đăng nhập <i class="bi bi-arrow-right"></i>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+    </header>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-6 pe-lg-5">
+                <a asp-action="Index" asp-controller="Home" class="navbar-brand d-flex align-items-center">
+                    <i class="bi bi-bricks text-primary display-1 me-3"></i> <!-- Make icon larger with display-1 -->
+                    <div>
+                        <h1 class="m-0 display-4 text-uppercase text-white">KOI POND</h1>
+                        <h2 class="m-0 text-uppercase text-white-50 fs-4">Construction Ordering System</h2> <!-- Smaller font for subtitle -->
+                    </div>
+                </a>
+                <p>Chúng tôi luôn hân hành được phục vụ mọi như cầu của quý khách.!</p>
+                <p><i class="fa fa-map-marker-alt me-2"></i>So 70, duong To Ky, Phuong Tan Chanh Hiep, Quan 12, TP. HCM</p>
+                <p><i class="fa fa-phone-alt me-2"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope me-2"></i>Nhom_F@gmail.com</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+                <div class="row g-5">
+                    <div class="col-sm-6">
+                        <h4 class="text-white text-uppercase mb-4">Quick Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
+                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Our Services</a>
+                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
+                            <a class="text-white-50" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="text-white text-uppercase mb-4">Popular Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
+                            <a class="text-white-50" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark bg-light-radial text-white border-top border-primary px-0">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="py-4 px-5 text-center text-md-start">
+                <p class="mb-0">&copy; <a class="text-primary" href="#">KoiPond</a>. All Rights Reserved.</p>
+            </div>
+            <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
+                <p class="mb-0">Designed by <a class="text-dark">Nhom F</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script asp-append-version="true" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script asp-append-version="true" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script asp-append-version="true" src="~/lib/easing/easing.min.js"></script>
+    <script asp-append-version="true" src="~/lib/waypoints/waypoints.min.js"></script>
+    <script asp-append-version="true" src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script asp-append-version="true" src="~/lib/tempusdominus/js/moment.min.js"></script>
+    <script asp-append-version="true" src="~/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script asp-append-version="true" src="~/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script asp-append-version="true" src="~/lib/isotope/isotope.pkgd.min.js"></script>
+    <script asp-append-version="true" src="~/lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script asp-append-version="true" src="~/js/main.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
