@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UPDATESCAKOI\\KoiPond\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\views\\danhgiaphanhois\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\danhgiaphanhois\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\yeucauthicongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\yeucauthicongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\yeucaudichvuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\yeucaudichvuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\danhgiaphanhoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\danhgiaphanhoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koipond\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:27:09.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Views\\SanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Create.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Views\\SanPhams\\Create.cshtml",
+              "RelativeToolTip": "Views\\SanPhams\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:10:46.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Views\\NhanViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Views\\NhanViens\\Create.cshtml",
+              "RelativeToolTip": "Views\\NhanViens\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:10:22.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Views\\KhachHangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\KhachHangs\\Create.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Views\\KhachHangs\\Create.cshtml",
+              "RelativeToolTip": "Views\\KhachHangs\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:09:59.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Views\\DanhGiaPhanHois\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\DanhGiaPhanHois\\Create.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Views\\DanhGiaPhanHois\\Create.cshtml",
+              "RelativeToolTip": "Views\\DanhGiaPhanHois\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:08:43.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T07:03:22.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T01:20:45.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "YeuCauThiCongsController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\YeuCauThiCongsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\YeuCauThiCongsController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\YeuCauThiCongsController.cs",
+              "RelativeToolTip": "Controllers\\YeuCauThiCongsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:08:21.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "YeuCauDichVusController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\YeuCauDichVusController.cs",
+              "RelativeDocumentMoniker": "Controllers\\YeuCauDichVusController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\YeuCauDichVusController.cs",
+              "RelativeToolTip": "Controllers\\YeuCauDichVusController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:08:08.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "Controllers\\SanPhamsController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:07:54.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhanViensController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "Controllers\\NhanViensController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:07:42.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KhachHangsController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\KhachHangsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KhachHangsController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\KhachHangsController.cs",
+              "RelativeToolTip": "Controllers\\KhachHangsController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAYwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:07:08.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:24:48.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DanhGiaPhanHoisController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\DanhGiaPhanHoisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DanhGiaPhanHoisController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\DanhGiaPhanHoisController.cs",
+              "RelativeToolTip": "Controllers\\DanhGiaPhanHoisController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:06:52.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolesController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Controllers\\RolesController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:23:57.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\KoiPond\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:19:20.879Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
