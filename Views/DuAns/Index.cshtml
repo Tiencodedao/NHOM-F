@@ -1,0 +1,55 @@
+﻿@model IEnumerable<KoiPond.Repositories.Models.DuAn>
+
+@{
+    ViewData["Title"] = "Dự án đã hoàn thành";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .portfolio-box img {
+        width: 100%;
+        height: 300px; 
+        object-fit: cover; 
+        border-radius: 10px; 
+    }
+</style>
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header">
+    <h1 class="display-3 text-uppercase text-white mb-3">Dự án đã hoàn thiện</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a href="">Trang chủ</a></h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Giới thiệu</h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Dự án</h6>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Portfolio Start -->
+<div class="container-fluid bg-light py-6 px-5">
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4">Dự án<span class="text-primary"> đã hoàn thành</span> của chúng tôi</h1>
+    </div>
+
+    <div class="row g-5 portfolio-container">
+        @foreach (var item in Model)
+        {
+            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item">
+                <div class="position-relative portfolio-box">
+                    <!-- Image linked to the lightbox -->
+                    <a href="@item.HinhAnh" data-lightbox="portfolio" data-title="@item.TenDuAn">
+                        <img class="img-fluid w-100" src="@item.HinhAnh" alt="@item.TenDuAn">
+                    </a>
+                    <a class="portfolio-title shadow-sm" asp-action="Details" asp-route-id="@item.Id">
+                        <p class="h4 text-uppercase">@item.TenDuAn</p>
+                        <span class="text-body"><i class='fas fa-pencil-ruler'></i> @item.KichThuoc</span> Xem chi tiết
+                    </a>
+                    <a class="portfolio-btn" href="@item.HinhAnh" data-lightbox="portfolio">
+                        <i class="bi bi-plus text-white"></i>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<!-- Portfolio End -->

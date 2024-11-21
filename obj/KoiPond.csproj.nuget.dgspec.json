@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPDATESCAKOI\\KoiPond\\KoiPond.csproj": {}
+    "D:\\UPDATESCAKOI\\New folder (2)\\KoiPond.csproj": {}
   },
   "projects": {
     "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
@@ -150,14 +150,14 @@
         }
       }
     },
-    "D:\\UPDATESCAKOI\\KoiPond\\KoiPond.csproj": {
+    "D:\\UPDATESCAKOI\\New folder (2)\\KoiPond.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPDATESCAKOI\\KoiPond\\KoiPond.csproj",
+        "projectUniqueName": "D:\\UPDATESCAKOI\\New folder (2)\\KoiPond.csproj",
         "projectName": "KoiPond",
-        "projectPath": "D:\\UPDATESCAKOI\\KoiPond\\KoiPond.csproj",
+        "projectPath": "D:\\UPDATESCAKOI\\New folder (2)\\KoiPond.csproj",
         "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
-        "outputPath": "D:\\UPDATESCAKOI\\KoiPond\\obj\\",
+        "outputPath": "D:\\UPDATESCAKOI\\New folder (2)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -237,7 +237,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

@@ -8,6 +8,8 @@ wwwroot\file\Bong Vu_0938109123_20241111_215522.docx
 wwwroot\file\Bong_01349385890_20241111_210703.docx
 wwwroot\file\Bong_0987637736_20241113_150405.docx
 wwwroot\file\Hiep_0987637736_20241113_145621.docx
+wwwroot\file\Hồ Cá Koi Sang Trọng.jpg
+wwwroot\file\hocakoisangtrong.jpg
 wwwroot\file\Hung_0987637736_20241113_141515.docx
 wwwroot\file\Linh Vu_09876665043_NoDate.docx
 wwwroot\file\Phan Phong_0987463853_NoDate.docx
@@ -17,6 +19,9 @@ wwwroot\file\Phong_0987637736_20241112_182724.docx
 wwwroot\file\Phong_0987637736_20241112_183507.docx
 wwwroot\file\Phong_09876665043_NoDate.docx
 wwwroot\file\Unknown_0987637736_20241112_182333.docx
+wwwroot\img\1.jpg
+wwwroot\img\2.jpg
+wwwroot\img\3.jpg
 wwwroot\img\about.jpg
 wwwroot\img\blog-1.jpg
 wwwroot\img\blog-2.jpg
@@ -24,6 +29,7 @@ wwwroot\img\blog-3.jpg
 wwwroot\img\carousel-1.jpg
 wwwroot\img\carousel-2.jpg
 wwwroot\img\carousel-3.jpg
+wwwroot\img\hocakoisangtrong.jpg
 wwwroot\img\materials.jpg
 wwwroot\img\portfolio-1.jpg
 wwwroot\img\portfolio-2.jpg
