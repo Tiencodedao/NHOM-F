@@ -1,17 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KoiPondUPDATE\\21-11\\KoiPond.csproj": {}
+    "D:\\UPDATESCAKOI\\New folder\\KoiPond.csproj": {}
   },
   "projects": {
-    "D:\\KoiPondUPDATE\\21-11\\KoiPond.csproj": {
+    "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KoiPondUPDATE\\21-11\\KoiPond.csproj",
-        "projectName": "KoiPond",
-        "projectPath": "D:\\KoiPondUPDATE\\21-11\\KoiPond.csproj",
+        "projectUniqueName": "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj",
+        "projectName": "KoiPond.Repositories",
+        "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj",
         "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
-        "outputPath": "D:\\KoiPondUPDATE\\21-11\\obj\\",
+        "outputPath": "D:\\UPDATESCAKOI\\KoiPond.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj",
+        "projectName": "KoiPond.Services",
+        "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj",
+        "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
+        "outputPath": "D:\\UPDATESCAKOI\\KoiPond.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +104,82 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
-                "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj"
+              "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
+                "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UPDATESCAKOI\\New folder\\KoiPond.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UPDATESCAKOI\\New folder\\KoiPond.csproj",
+        "projectName": "KoiPond",
+        "projectPath": "D:\\UPDATESCAKOI\\New folder\\KoiPond.csproj",
+        "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
+        "outputPath": "D:\\UPDATESCAKOI\\New folder\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
+                "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj"
               },
-              "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj": {
-                "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj"
+              "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj": {
+                "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj"
               }
             }
           }
@@ -109,152 +255,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj",
-        "projectName": "KoiPond.Repositories",
-        "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj",
-        "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
-        "outputPath": "D:\\KoiPondUPDATE\\KoiPond.Repositories\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Identity": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj",
-        "projectName": "KoiPond.Services",
-        "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj",
-        "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
-        "outputPath": "D:\\KoiPondUPDATE\\KoiPond.Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
-                "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Http.Features": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

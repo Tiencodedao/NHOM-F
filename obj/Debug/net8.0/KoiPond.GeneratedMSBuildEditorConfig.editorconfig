@@ -17,215 +17,215 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoiPond
 build_property.RootNamespace = KoiPond
-build_property.ProjectDir = D:\KoiPondUPDATE\21-11\
+build_property.ProjectDir = D:\UPDATESCAKOI\New folder\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\KoiPondUPDATE\21-11
+build_property.MSBuildProjectDirectory = D:\UPDATESCAKOI\New folder
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/KoiPondUPDATE/21-11/Views/Account/ForgotPassword.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Account/Login.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Account/PasswordChange.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Account/PasswordChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQYXNzd29yZENoYW5nZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DanhGiaPhanHois/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DanhGiaPhanHois/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYVBoYW5Ib2lzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DanhGiaPhanHois/Delete.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DanhGiaPhanHois/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYVBoYW5Ib2lzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DanhGiaPhanHois/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DanhGiaPhanHois/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYVBoYW5Ib2lzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DanhGiaPhanHois/Edit.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DanhGiaPhanHois/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYVBoYW5Ib2lzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DanhGiaPhanHois/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DanhGiaPhanHois/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuaEdpYVBoYW5Ib2lzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DuAns/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DuAns/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DuAns/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DuAns/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/DuAns/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/DuAns/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Home/About.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Home/Dashboard.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Home/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Home/Privacy.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/KhachHangs/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/KhachHangs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/KhachHangs/Delete.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/KhachHangs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/KhachHangs/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/KhachHangs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/KhachHangs/Edit.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/KhachHangs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/KhachHangs/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/KhachHangs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/NhanViens/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/NhanViens/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/NhanViens/Delete.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/NhanViens/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/NhanViens/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/NhanViens/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/NhanViens/Edit.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/NhanViens/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/NhanViens/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/NhanViens/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Roles/CreateRole.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Roles/CreateRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlUm9sZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Roles/EditRole.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Roles/EditRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdFJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Roles/EditUserInRole.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Roles/EditUserInRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdFVzZXJJblJvbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Roles/ListRoles.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Roles/ListRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcTGlzdFJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/SanPhams/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/SanPhams/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/SanPhams/Delete.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/SanPhams/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/SanPhams/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/SanPhams/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/SanPhams/Edit.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/SanPhams/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/SanPhams/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/SanPhams/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Shared/Error.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Users/EditUser.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Users/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Users/ListUsers.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Users/ListUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTGlzdFVzZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauDichVus/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauDichVus/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1RGljaFZ1c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauDichVus/Delete.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauDichVus/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1RGljaFZ1c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauDichVus/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauDichVus/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1RGljaFZ1c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauDichVus/Edit.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauDichVus/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1RGljaFZ1c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauDichVus/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauDichVus/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1RGljaFZ1c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauThiCongs/Create.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauThiCongs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1VGhpQ29uZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauThiCongs/Delete.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauThiCongs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1VGhpQ29uZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauThiCongs/Details.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauThiCongs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1VGhpQ29uZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauThiCongs/Edit.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauThiCongs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1VGhpQ29uZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/YeuCauThiCongs/Index.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/YeuCauThiCongs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWV1Q2F1VGhpQ29uZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/_ViewImports.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/_ViewStart.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/KoiPondUPDATE/21-11/Views/Shared/_Layout.cshtml]
+[D:/UPDATESCAKOI/New folder/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i4u66419xn

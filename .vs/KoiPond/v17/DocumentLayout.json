@@ -1,48 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\",
+  "WorkspaceRootPath": "D:\\UPDATESCAKOI\\New folder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\views\\duans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\views\\duans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\duans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/MSI_SQLEXPRESS/DUAN/True/SqlTable/dbo.DuAn.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\views\\duans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\views\\duans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\duans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\controllers\\duanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\controllers\\duanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\duanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\views\\duans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\views\\duans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\duans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\koi pond construction (1)\\koipond\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\updatescakoi\\new folder\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -71,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\appsettings.json",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\appsettings.json",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -84,9 +84,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Create.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Views\\DuAns\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\DuAns\\Create.cshtml",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Create.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Views\\DuAns\\Create.cshtml",
               "RelativeToolTip": "Views\\DuAns\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -96,9 +96,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAALAAAAAAAAAAAAAhwLUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -118,9 +118,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "SanPhamsController.cs",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\SanPhamsController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Controllers\\SanPhamsController.cs",
               "RelativeDocumentMoniker": "Controllers\\SanPhamsController.cs",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Controllers\\SanPhamsController.cs",
               "RelativeToolTip": "Controllers\\SanPhamsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -130,9 +130,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Details.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Views\\DuAns\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\DuAns\\Details.cshtml",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Details.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Views\\DuAns\\Details.cshtml",
               "RelativeToolTip": "Views\\DuAns\\Details.cshtml",
               "ViewState": "AQIAAB0AAAAAAAAAAAAAACwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -142,9 +142,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "DuAnsController.cs",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\DuAnsController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Controllers\\DuAnsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DuAnsController.cs",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\DuAnsController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Controllers\\DuAnsController.cs",
               "RelativeToolTip": "Controllers\\DuAnsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,9 +154,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,9 +166,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Index.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Views\\DuAns\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\DuAns\\Index.cshtml",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Index.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Views\\DuAns\\Index.cshtml",
               "RelativeToolTip": "Views\\DuAns\\Index.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAADQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -178,9 +178,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,9 +190,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\UPDATESCAKOI\\New folder\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\UPDATESCAKOI\\Koi Pond Construction (1)\\KoiPond\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\UPDATESCAKOI\\New folder\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAIUAAAAAAAAAAABBwIYAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

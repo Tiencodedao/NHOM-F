@@ -61,12 +61,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dbo.DuAn [Data]",
+              "Title": "dbo.DuAn.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI_SQLEXPRESS/DUAN/True/SqlTable/dbo.DuAn.sql",
-              "ToolTip": "dbo.DuAn [Data]",
+              "ToolTip": "ViewDataWindow_MSSQL__/MSI_SQLEXPRESS/DUAN/True/SqlTable/dbo.DuAn.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-21T05:38:29.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T05:38:29.065Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Views\\DuAns\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T14:57:20.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T14:57:20.117Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAALAAAAAAAAAAAAAhwLUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T15:05:02.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T15:05:02.263Z"
             },
             {
               "$type": "Document",

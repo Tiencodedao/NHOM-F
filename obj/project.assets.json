@@ -9226,11 +9226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KoiPondUPDATE\\21-11\\KoiPond.csproj",
+      "projectUniqueName": "D:\\UPDATESCAKOI\\New folder\\KoiPond.csproj",
       "projectName": "KoiPond",
-      "projectPath": "D:\\KoiPondUPDATE\\21-11\\KoiPond.csproj",
+      "projectPath": "D:\\UPDATESCAKOI\\New folder\\KoiPond.csproj",
       "packagesPath": "C:\\Users\\kien7\\.nuget\\packages\\",
-      "outputPath": "D:\\KoiPondUPDATE\\21-11\\obj\\",
+      "outputPath": "D:\\UPDATESCAKOI\\New folder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kien7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9248,11 +9248,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
-              "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Repositories\\KoiPond.Repositories.csproj"
+            "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj": {
+              "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Repositories\\KoiPond.Repositories.csproj"
             },
-            "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj": {
-              "projectPath": "D:\\KoiPondUPDATE\\KoiPond.Services\\KoiPond.Services.csproj"
+            "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj": {
+              "projectPath": "D:\\UPDATESCAKOI\\KoiPond.Services\\KoiPond.Services.csproj"
             }
           }
         }
