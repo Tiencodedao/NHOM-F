@@ -8,6 +8,190 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace KoiPond.Controllers
 {
+    /*
+     * Old controller
+     public class DanhGiaPhanHoisController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public DanhGiaPhanHoisController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: DanhGiaPhanHois
+        public async Task<IActionResult> Index()
+        {
+            var applicationDbContext = _context.DanhGiaPhanHois.Include(d => d.MaKhachHangNavigation).Include(d => d.MaYeuCauDichVuNavigation).Include(d => d.MaYeuCauThiCongNavigation);
+            return View(await applicationDbContext.ToListAsync());
+        }
+
+        // GET: DanhGiaPhanHois/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var danhGiaPhanHoi = await _context.DanhGiaPhanHois
+                .Include(d => d.MaKhachHangNavigation)
+                .Include(d => d.MaYeuCauDichVuNavigation)
+                .Include(d => d.MaYeuCauThiCongNavigation)
+                .FirstOrDefaultAsync(m => m.MaPhanHoi == id);
+            if (danhGiaPhanHoi == null)
+            {
+                return NotFound();
+            }
+
+            return View(danhGiaPhanHoi);
+        }
+
+        // GET: DanhGiaPhanHois/Create
+        public IActionResult Create()
+        {
+            ViewData["MaKhachHang"] = new SelectList(_context.KhachHangs, "TenKhachHang", "TenKhachHang");
+            ViewData["MaYeuCauDichVu"] = new SelectList(Enumerable.Empty<SelectListItem>(), "Value", "Text");
+            ViewData["MaYeuCauThiCong"] = new SelectList(Enumerable.Empty<SelectListItem>(), "Value", "Text");
+            return View();
+        }
+
+        [HttpGet]
+        public JsonResult GetFilteredRequests(string tenkh)
+        {
+            var filteredYeuCauDichVus = _context.YeuCauDichVus
+                .Where(y => y.TenKhachHang == tenkh)
+                .Select(y => new { y.MaYeuCau})
+                .ToList();
+
+            var filteredYeuCauThiCongs = _context.YeuCauThiCongs
+                .Where(y => y.TenKhachHang == tenkh)
+                .Select(y => new { y.MaYeuCau })
+                .ToList();
+
+            return Json(new { YeuCauDichVus = filteredYeuCauDichVus, YeuCauThiCongs = filteredYeuCauThiCongs });
+        }
+
+
+
+        // POST: DanhGiaPhanHois/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("MaPhanHoi,MaKhachHang,MaYeuCauDichVu,MaYeuCauThiCong,DanhGia,BinhLuan,NgayTao")] DanhGiaPhanHoi danhGiaPhanHoi)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(danhGiaPhanHoi);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["MaKhachHang"] = new SelectList(_context.KhachHangs, "MaKhachHang", "TenKhachHang");
+            ViewData["MaYeuCauDichVu"] = new SelectList(Enumerable.Empty<SelectListItem>(), "Value", "Text");
+            ViewData["MaYeuCauThiCong"] = new SelectList(Enumerable.Empty<SelectListItem>(), "Value", "Text");
+            return View(danhGiaPhanHoi);
+        }
+
+        // GET: DanhGiaPhanHois/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var danhGiaPhanHoi = await _context.DanhGiaPhanHois.FindAsync(id);
+            if (danhGiaPhanHoi == null)
+            {
+                return NotFound();
+            }
+            ViewData["MaKhachHang"] = new SelectList(_context.KhachHangs, "MaKhachHang", "MaKhachHang", danhGiaPhanHoi.MaKhachHang);
+            ViewData["MaYeuCauDichVu"] = new SelectList(_context.YeuCauDichVus, "MaYeuCau", "MaYeuCau", danhGiaPhanHoi.MaYeuCauDichVu);
+            ViewData["MaYeuCauThiCong"] = new SelectList(_context.YeuCauThiCongs, "MaYeuCau", "MaYeuCau", danhGiaPhanHoi.MaYeuCauThiCong);
+            return View(danhGiaPhanHoi);
+        }
+
+        // POST: DanhGiaPhanHois/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("MaPhanHoi,MaKhachHang,MaYeuCauDichVu,MaYeuCauThiCong,DanhGia,BinhLuan,NgayTao")] DanhGiaPhanHoi danhGiaPhanHoi)
+        {
+            if (id != danhGiaPhanHoi.MaPhanHoi)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(danhGiaPhanHoi);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!DanhGiaPhanHoiExists(danhGiaPhanHoi.MaPhanHoi))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["MaKhachHang"] = new SelectList(_context.KhachHangs, "MaKhachHang", "MaKhachHang", danhGiaPhanHoi.MaKhachHang);
+            ViewData["MaYeuCauDichVu"] = new SelectList(_context.YeuCauDichVus, "MaYeuCau", "MaYeuCau", danhGiaPhanHoi.MaYeuCauDichVu);
+            ViewData["MaYeuCauThiCong"] = new SelectList(_context.YeuCauThiCongs, "MaYeuCau", "MaYeuCau", danhGiaPhanHoi.MaYeuCauThiCong);
+            return View(danhGiaPhanHoi);
+        }
+
+        // GET: DanhGiaPhanHois/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var danhGiaPhanHoi = await _context.DanhGiaPhanHois
+                .Include(d => d.MaKhachHangNavigation)
+                .Include(d => d.MaYeuCauDichVuNavigation)
+                .Include(d => d.MaYeuCauThiCongNavigation)
+                .FirstOrDefaultAsync(m => m.MaPhanHoi == id);
+            if (danhGiaPhanHoi == null)
+            {
+                return NotFound();
+            }
+
+            return View(danhGiaPhanHoi);
+        }
+
+        // POST: DanhGiaPhanHois/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var danhGiaPhanHoi = await _context.DanhGiaPhanHois.FindAsync(id);
+            if (danhGiaPhanHoi != null)
+            {
+                _context.DanhGiaPhanHois.Remove(danhGiaPhanHoi);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool DanhGiaPhanHoiExists(int id)
+        {
+            return _context.DanhGiaPhanHois.Any(e => e.MaPhanHoi == id);
+        }
+    }
+    */
     [Authorize]
     public class DanhGiaPhanHoisController : Controller
     {

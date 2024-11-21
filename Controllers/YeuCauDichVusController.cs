@@ -10,6 +10,176 @@ using System.Security.Claims;
 
 namespace KoiPond.Controllers
 {
+    /*
+     * public class YeuCauDichVusController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public YeuCauDichVusController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
+        // GET: YeuCauDichVus
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.YeuCauDichVus.Include(p=>p.NhanVien).ToListAsync());
+        }
+
+        // GET: YeuCauDichVus/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var yeuCauDichVu = await _context.YeuCauDichVus
+                .FirstOrDefaultAsync(m => m.MaYeuCau == id);
+            if (yeuCauDichVu == null)
+            {
+                return NotFound();
+            }
+
+            return View(yeuCauDichVu);
+        }
+
+        // GET: YeuCauDichVus/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: YeuCauDichVus/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("MaYeuCau,LoaiDichVu,NgayYeuCau,TrangThaiDichVu,PhanHoi,MaNhanVien,NgayTao,NgayCapNhat,DiaChi,Email,MoTa,Sdt,SoLuong,TenKhachHang")] YeuCauDichVu yeuCauDichVu)
+        {
+            if (ModelState.IsValid)
+            {
+                KhachHang newKh = new KhachHang
+                {
+                    TenKhachHang = yeuCauDichVu.TenKhachHang,
+                    DiaChi = yeuCauDichVu.DiaChi,
+                    SoDienThoai = yeuCauDichVu.Sdt,
+                    Email = yeuCauDichVu.Email
+                };
+
+                _context.Add(newKh);
+                await _context.SaveChangesAsync();
+
+                yeuCauDichVu.TrangThaiDichVu = "Chờ xử lý";
+                yeuCauDichVu.NgayTao = DateTime.Now; 
+
+                _context.Add(yeuCauDichVu);
+                await _context.SaveChangesAsync();
+
+                TempData["SuccessMessage"] = "Gửi yêu cầu dịch vụ thành công!";
+                //return RedirectToAction(nameof(Index));
+            }
+            return View(yeuCauDichVu);
+        }
+
+        // GET: YeuCauDichVus/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var yeuCauDichVu = await _context.YeuCauDichVus.FindAsync(id);
+            if (yeuCauDichVu == null)
+            {
+                return NotFound();
+            }
+
+            ViewData["MaNhanVien"] = new SelectList(_context.NhanViens, "MaNhanVien", "TenNhanVien");
+
+            return View(yeuCauDichVu);
+        }
+
+        // POST: YeuCauDichVus/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("MaYeuCau,LoaiDichVu,NgayYeuCau,TrangThaiDichVu,PhanHoi,MaNhanVien,NgayTao,NgayCapNhat,DiaChi,Email,MoTa,Sdt,SoLuong,TenKhachHang")] YeuCauDichVu yeuCauDichVu)
+        {
+            if (id != yeuCauDichVu.MaYeuCau)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    yeuCauDichVu.NgayCapNhat = DateTime.Now;
+
+                    _context.Update(yeuCauDichVu);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!YeuCauDichVuExists(yeuCauDichVu.MaYeuCau))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["MaNhanVien"] = new SelectList(_context.NhanViens, "MaNhanVien", "TenNhanVien");
+            return View(yeuCauDichVu);
+        }
+
+        // GET: YeuCauDichVus/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var yeuCauDichVu = await _context.YeuCauDichVus
+                .FirstOrDefaultAsync(m => m.MaYeuCau == id);
+            if (yeuCauDichVu == null)
+            {
+                return NotFound();
+            }
+
+            return View(yeuCauDichVu);
+        }
+
+        // POST: YeuCauDichVus/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var yeuCauDichVu = await _context.YeuCauDichVus.FindAsync(id);
+            if (yeuCauDichVu != null)
+            {
+                _context.YeuCauDichVus.Remove(yeuCauDichVu);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool YeuCauDichVuExists(int id)
+        {
+            return _context.YeuCauDichVus.Any(e => e.MaYeuCau == id);
+        }
+    }
+    */
+
+
     public class YeuCauDichVusController : Controller
     {
         private readonly IYeuCauDichVuService _service;
