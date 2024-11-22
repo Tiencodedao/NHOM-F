@@ -1,0 +1,408 @@
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.AssemblyReference.cache
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfoInputs.cache
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfo.cs
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.CoreCompileInputs.cache
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.deps.json
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.runtimeconfig.json
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.exe
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.exe
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.deps.json
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.runtimeconfig.json
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.pdb
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Azure.Core.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Azure.Identity.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.pdb
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond..DA952880.Up2Date
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\refint\KoiPond.Services.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.pdb
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.genruntimeconfig.cache
+D:\Asp net\Koi Pond Construction\KoiPond.Services\obj\Debug\net8.0\ref\KoiPond.Services.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.deps.json
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.runtimeconfig.json
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.exe
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.exe
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.deps.json
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.runtimeconfig.json
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.pdb
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Azure.Core.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Azure.Identity.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.dll
+D:\Công nghệ phần mềm\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.pdb
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.AssemblyReference.cache
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfoInputs.cache
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfo.cs
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.CoreCompileInputs.cache
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond..DA952880.Up2Date
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.dll
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\refint\KoiPond.Services.dll
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.pdb
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.genruntimeconfig.cache
+D:\Công nghệ phần mềm\KoiPond.Services\obj\Debug\net8.0\ref\KoiPond.Services.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.deps.json
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.runtimeconfig.json
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.exe
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.exe
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.deps.json
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.runtimeconfig.json
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.pdb
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Azure.Core.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Azure.Identity.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.dll
+D:\Asp net\KoiPond\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.pdb
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.AssemblyReference.cache
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfoInputs.cache
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfo.cs
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.CoreCompileInputs.cache
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond..DA952880.Up2Date
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.dll
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\refint\KoiPond.Services.dll
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.pdb
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.genruntimeconfig.cache
+D:\Asp net\KoiPond\KoiPond.Services\obj\Debug\net8.0\ref\KoiPond.Services.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Asp net\Koi Pond Construction\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.deps.json
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.runtimeconfig.json
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.exe
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.exe
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.deps.json
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.runtimeconfig.json
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.pdb
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.pdb
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond..DA952880.Up2Date
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\refint\KoiPond.Services.dll
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.pdb
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Desktop\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\ref\KoiPond.Services.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.deps.json
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.runtimeconfig.json
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.exe
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.exe
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.deps.json
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.runtimeconfig.json
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Services.pdb
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Azure.Core.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Azure.Identity.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\bin\Debug\net8.0\KoiPond.Repositories.pdb
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.AssemblyReference.cache
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfoInputs.cache
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.AssemblyInfo.cs
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.csproj.CoreCompileInputs.cache
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond..DA952880.Up2Date
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\refint\KoiPond.Services.dll
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.pdb
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\KoiPond.Services.genruntimeconfig.cache
+D:\ngay 22_11\Koi Pond Construction (1)\KoiPond.Services\obj\Debug\net8.0\ref\KoiPond.Services.dll

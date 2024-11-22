@@ -1,0 +1,109 @@
+﻿@model KoiPond.Repositories.Models.DuAn
+
+@{
+    ViewData["Title"] = "Tạo dự án";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header">
+    <h1 class="display-3 text-uppercase text-white mb-3">Tạo dự án</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a href="">Trang chủ</a></h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Tạo dự án</h6>
+    </div>
+</div>
+<!-- Page Header Start -->
+<!-- Appointment Start -->
+<div class="container-fluid bg-light py-6 px-5">
+    <div class="row gx-5">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="mb-4">
+                <h1 class="display-5 text-uppercase mb-4">Tạo một dự án <span class="text-primary">đã hoàn thành!</span></h1>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="bg-white text-center p-5">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div class="row g-3">
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="TenDuAn" type="text" class="form-control bg-light border-0" placeholder="Tên khách hàng" style="height: 55px;">
+                            <span asp-validation-for="TenDuAn" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <select asp-for="ThietKe" class="form-control bg-light border-0" style="height: 55px;">
+                                <option value="">--Chọn loại thi công--</option>
+                                <option value="Thiết kế">Thiết kế theo yêu cầu</option>
+                                <option value="Thi công">Thiết kế hiện đại, thông minh</option>
+                            </select>
+                            <span asp-validation-for="ThietKe" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="MoTa" type="text" class="form-control bg-light border-0" placeholder="Mô tá" style="height: 55px;">
+                            <span asp-validation-for="MoTa" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="UuDiem" type="text" class="form-control bg-light border-0" placeholder="Ưu điểm" style="height: 55px;">
+                            <span asp-validation-for="UuDiem" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="KichThuoc" type="text" class="form-control bg-light border-0" placeholder="Kích thước" style="height: 55px;">
+                            <span asp-validation-for="KichThuoc" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="SoLuongCa" type="text" class="form-control bg-light border-0" placeholder="Số lượng cá" style="height: 55px;">
+                            <span asp-validation-for="SoLuongCa" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="VatLieu" type="text" class="form-control bg-light border-0" placeholder="Vật liệu" style="height: 55px;">
+                            <span asp-validation-for="VatLieu" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="HinhAnh" type="file" id="fileInput" name="uploadedFile" class="form-control bg-light border-0" style="height: 55px;" onchange="previewImage(event)">
+                            <span asp-validation-for="HinhAnh" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12">
+                            <img id="imagePreview" class="preview-image" style="display:none; width: 200px; height: 200px; object-fit: cover;" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Tạo" class="btn btn-primary">
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Appointment End -->
+<!-- Script to Preview Image -->
+<script>
+    function previewImage(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function () {
+            const img = document.getElementById('imagePreview');
+            img.style.display = 'block';
+            img.src = reader.result;
+        };
+
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+    }
+</script>
