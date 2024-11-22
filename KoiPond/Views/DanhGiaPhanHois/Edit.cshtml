@@ -1,0 +1,57 @@
+﻿@model KoiPond.Repositories.Models.DanhGiaPhanHoi
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>DanhGiaPhanHoi</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaPhanHoi" />
+            <div class="form-group">
+                <label asp-for="MaKhachHang" class="control-label"></label>
+                <select asp-for="MaKhachHang" class="form-control" asp-items="ViewBag.MaKhachHang"></select>
+                <span asp-validation-for="MaKhachHang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaYeuCauDichVu" class="control-label"></label>
+                <select asp-for="MaYeuCauDichVu" class="form-control" asp-items="ViewBag.MaYeuCauDichVu"></select>
+                <span asp-validation-for="MaYeuCauDichVu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaYeuCauThiCong" class="control-label"></label>
+                <select asp-for="MaYeuCauThiCong" class="form-control" asp-items="ViewBag.MaYeuCauThiCong"></select>
+                <span asp-validation-for="MaYeuCauThiCong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DanhGia" class="control-label"></label>
+                <input asp-for="DanhGia" class="form-control" />
+                <span asp-validation-for="DanhGia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BinhLuan" class="control-label"></label>
+                <input asp-for="BinhLuan" class="form-control" />
+                <span asp-validation-for="BinhLuan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayTao" class="control-label"></label>
+                <input asp-for="NgayTao" class="form-control" />
+                <span asp-validation-for="NgayTao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

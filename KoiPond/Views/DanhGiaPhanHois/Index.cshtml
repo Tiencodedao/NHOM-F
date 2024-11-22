@@ -1,0 +1,63 @@
+﻿@model IEnumerable<KoiPond.Repositories.Models.DanhGiaPhanHoi>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Page Header -->
+<div class="container-fluid page-header">
+    <h1 class="display-3 text-uppercase text-white mb-3">Đánh Giá Phản Hồi</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a href="">Trang chủ</a></h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Quản trị</h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Đánh Giá Phản Hồi</h6>
+    </div>
+</div>
+
+<div class="container my-4">
+    <p>
+        <a class="btn btn-primary mb-3" asp-action="Create">Create New</a>
+    </p>
+    <div class="table-responsive p-3 border rounded">
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DanhGia)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BinhLuan)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.NgayTao)
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DanhGia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BinhLuan)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NgayTao)
+                        </td>
+                        <td>
+                            <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.MaPhanHoi">Edit</a>
+                            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.MaPhanHoi">Details</a>
+                            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.MaPhanHoi">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

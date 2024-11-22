@@ -1,0 +1,355 @@
+﻿:root {
+    --primary: #FD5D14;
+    --secondary: #FDBE33;
+    --light: #F4F6F8;
+    --dark: #040F28;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.pt-6 {
+    padding-top: 90px;
+}
+
+.pb-6 {
+    padding-bottom: 90px;
+}
+
+.py-6 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.btn {
+    position: relative;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+    /* Tao hieu ung hover cho nut */
+    .btn::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 5px;
+        bottom: -1px;
+        left: 50%;
+        background: var(--primary);
+        transition: .5s;
+    }
+
+    .btn.btn-primary::after {
+        background: var(--dark);
+    }
+
+    .btn:hover::after,
+    .btn.active::after {
+        width: 50%;
+        left: 25%;
+    }
+
+.btn-primary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    left: 50%;
+    bottom: 0;
+    margin-left: -22px;
+    border-radius: 0;
+    z-index: 99;
+}
+
+.bg-dark-radial {
+    background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+.bg-light-radial {
+    background-image: repeating-radial-gradient(center center, rgba(256, 256, 256, 0.2), rgba(256, 256, 256, 0.2) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 0 15px;
+    margin-left: -25px; /* Điều chỉnh giá trị này để di chuyển thanh điều hướng sang trái */
+}
+
+
+/* Logo icon */
+.navbar-brand i {
+    font-size: 2.5rem; /* Giảm kích thước icon logo */
+    margin-right: 10px; /* Điều chỉnh khoảng cách giữa icon và tên web */
+}
+
+/* Website name */
+.navbar-brand h1 {
+    font-size: 1.3rem; /* Giảm kích thước tên website */
+    line-height: 1.2; /* Điều chỉnh chiều cao dòng để cân đối */
+}
+
+.navbar-brand h2 {
+    font-size: 1.5rem !important; /* Giảm kích thước phụ đề */
+    line-height: 1.2;
+    color: #F4F6F8; /* Điều chỉnh màu phụ đề nếu cần */
+}
+
+
+/* Thiet lap phan cach cua cac muc trong navbar */
+.navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    padding: 8px 5px; /* Giam padding de tiet kiem khong gian */
+    font-size: 14px; /* Giam kich thuoc font */
+    text-transform: uppercase;
+    color: var(--light);
+    transition: .5s;
+    white-space: nowrap; /* Ngăn chặn xuống hàng */
+}
+
+    /* Hieu ung hover cho link trong navbar */
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: var(--primary);
+    }
+
+/* Nut dang nhap */
+.nav-item .nav-link.bg-primary {
+    padding: 6px 10px; /* Giam padding cua nut dang nhap */
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: #fff !important;
+    white-space: nowrap; /* Ngăn chặn xuống hàng */
+}
+
+    /* Thay doi mau khi hover cho nut dang nhap */
+    .nav-item .nav-link.bg-primary:hover {
+        background-color: var(--secondary);
+    }
+
+/* Dropdown menu */
+.navbar-nav .dropdown-menu {
+    min-width: 180px;
+    font-size: 14px; /* Giam kich thuoc chu cho muc con trong dropdown */
+}
+
+/* Carousel caption */
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(4, 15, 40, .7);
+    z-index: 1;
+}
+
+    .carousel-caption h1 {
+        font-size: 28px; /* Giam kich thuoc font chu tieu de */
+    }
+
+    .carousel-caption h4 {
+        font-size: 16px; /* Giam kich thuoc font chu mo ta */
+    }
+
+.page-header {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* Service item */
+.service-item .service-icon {
+    margin-top: -50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+    .service-item .service-icon i {
+        font-size: 40px;
+        transition: .2s;
+    }
+
+.service-item:hover .service-icon i {
+    font-size: 60px;
+}
+
+.portfolio-item {
+    margin-bottom: 60px;
+}
+
+.portfolio-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    padding: 0 30px;
+    right: 30px;
+    left: 30px;
+    bottom: -60px;
+    background: #FFFFFF;
+    z-index: 3;
+}
+
+.portfolio-btn {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+    font-size: 120px;
+    line-height: 0;
+    transition: .1s;
+    transition-delay: .3s;
+    z-index: 2;
+    opacity: 0;
+}
+
+.portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+}
+
+.portfolio-box::before,
+.portfolio-box::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    transition: .5s;
+    z-index: 1;
+    background: rgba(4, 15, 40, .7);
+}
+
+.portfolio-box::before {
+    left: 0;
+}
+
+.portfolio-box::after {
+    right: 0;
+}
+
+.portfolio-item:hover .portfolio-box::before {
+    left: 0;
+    width: 50%;
+}
+
+.portfolio-item:hover .portfolio-box::after {
+    right: 0;
+    width: 50%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 13px; /* Giảm kích thước font */
+        padding: 6px 4px; /* Giảm padding để tiết kiệm không gian */
+    }
+
+    .nav-item .nav-link.bg-primary {
+        padding: 5px 8px; /* Giảm padding của nút đăng nhập */
+        font-size: 13px; /* Giảm kích thước font của nút đăng nhập */
+        max-width: 100px; /* Đặt giới hạn chiều rộng cho nút */
+    }
+}
+@media (max-width: 992px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 5px 3px;
+    }
+
+    .nav-item .nav-link.bg-primary {
+        padding: 4px 6px;
+        font-size: 12px;
+        max-width: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 14px; /* Kich thuoc chu nho hon cho man hinh nho */
+    }
+
+    .carousel-caption h1 {
+        font-size: 24px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonial,
+    .contact-form {
+        margin-left: -90px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer::after {
+        position: absolute;
+        content: "";
+        width: 1px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        background: var(--primary);
+    }
+}
+
+.footer-shape::before {
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 100%;
+    top: 0;
+    left: -40px;
+    background: var(--primary);
+    transform: skew(40deg);
+}

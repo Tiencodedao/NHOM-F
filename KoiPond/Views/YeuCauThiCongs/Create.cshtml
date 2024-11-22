@@ -1,0 +1,111 @@
+﻿@model KoiPond.Repositories.Models.YeuCauThiCong
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+
+    <script>
+        // Redirect to the homepage after 5 seconds (5000 milliseconds)
+        setTimeout(function () {
+            window.location.href = '@Url.Action("Index", "Home")';
+        }, 5000);
+    </script>
+}
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header">
+    <h1 class="display-3 text-uppercase text-white mb-3">Thi công</h1>
+    <div class="d-inline-flex text-white">
+        <h6 class="text-uppercase m-0"><a href="">Trang chủ</a></h6>
+        <h6 class="text-white m-0 px-3">/</h6>
+        <h6 class="text-uppercase text-white m-0">Thi công</h6>
+    </div>
+</div>
+<!-- Page Header Start -->
+<!-- Appointment Start -->
+<div class="container-fluid bg-light py-6 px-5">
+    <div class="row gx-5">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="mb-4">
+                <h1 class="display-5 text-uppercase mb-4">Hãy gửi một <span class="text-primary">yêu cầu ngay!</span></h1>
+            </div>
+            <p class="mb-5">Hãy cho chúng tôi biết bạn muốn gì, đội ngũ của chúng tôi sẽ không làm bạn phải thất vọng.</p>
+            <a class="btn btn-primary py-3 px-5" href="">Get A Quote</a>
+        </div>
+        <div class="col-lg-8">
+            <div class="bg-white text-center p-5">
+                <form asp-action="Create" enctype="multipart/form-data">
+                    <div class="row g-3">
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="TenKhachHang" type="text" class="form-control bg-light border-0" placeholder="Tên khách hàng" style="height: 55px;">
+                            <span asp-validation-for="TenKhachHang" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <select asp-for="LoaiThietKe" class="form-control bg-light border-0" style="height: 55px;">
+                                <option value="">--Chọn loại thi công--</option>
+                                <option value="Thiết kế">Thiết kế</option>
+                                <option value="Thi công">Thi công</option>
+                                <option value="Trọn gói">Trọn gói</option>
+                            </select>
+                            <span asp-validation-for="LoaiThietKe" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="ChiTietYeuCau" type="text" class="form-control bg-light border-0" placeholder="Chi tiết yêu cầu" style="height: 55px;">
+                            <span asp-validation-for="ChiTietYeuCau" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="DiaChi" type="text" class="form-control bg-light border-0" placeholder="Địa chỉ" style="height: 55px;">
+                            <span asp-validation-for="DiaChi" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="Sdt" type="text" class="form-control bg-light border-0" placeholder="Số điện thoại" style="height: 55px;">
+                            <span asp-validation-for="Sdt" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="SoLuong" type="text" class="form-control bg-light border-0" placeholder="Diện tích" style="height: 55px;">
+                            <span asp-validation-for="SoLuong" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="Email" type="text" class="form-control bg-light border-0" placeholder="Email" style="height: 55px;">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <input asp-for="FileDinhKem" type="file" name="uploadedFile" class="form-control bg-light border-0" style="height: 55px;">
+                            <span asp-validation-for="FileDinhKem" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                                <input type="date" asp-for="NgayCapNhat" class="form-control bg-light border-0 datetimepicker-input" placeholder="Call Back Date"
+                                       style="height: 55px;">
+                            <span asp-validation-for="NgayCapNhat" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" value="Gửi" class="btn btn-primary">
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Appointment End -->
