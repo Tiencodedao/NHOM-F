@@ -65,8 +65,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T15:09:47.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T15:09:47.184Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T15:05:02.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T15:05:02.263Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Views\\Home\\About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T06:56:13.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T06:56:13.147Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "Controllers\\SanPhamsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:04:02.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T15:04:02.479Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "Views\\DuAns\\Create.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T14:57:20.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T14:57:20.117Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Views\\DuAns\\Details.cshtml",
               "ViewState": "AQIAAB0AAAAAAAAAAAAAACwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T15:02:56.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T15:02:56.948Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Controllers\\DuAnsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:57:24.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T14:57:24.744Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:18:42.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:18:42.754Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:16:47.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:16:47.325Z"
             }
           ]
         }

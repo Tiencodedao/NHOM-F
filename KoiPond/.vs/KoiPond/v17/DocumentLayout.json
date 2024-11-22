@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\",
+  "WorkspaceRootPath": "D:\\ngay 22_11\\New folder\\KoiPond\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\views\\duans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\views\\duans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\duans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\controllers\\duanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\controllers\\duanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\duanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\views\\duans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\views\\duans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:views\\duans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\koi pond construction (1)\\koipond\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|d:\\ngay 22_11\\new folder\\koipond\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C75704A1-0609-443B-9A7D-751AF3AE9991}|KoiPond.csproj|solutionrelative:controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -53,15 +53,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\appsettings.json",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\appsettings.json",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -71,11 +75,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAOAAAAAAAAAAAADwv/IAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAOMAAAAAAAAAAADwv/IAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-19T14:55:01.357Z",
               "EditorCaption": ""
@@ -84,9 +88,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -96,9 +100,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "Views\\Home\\About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -108,9 +112,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "SanPhamsController.cs",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\SanPhamsController.cs",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\SanPhamsController.cs",
               "RelativeDocumentMoniker": "Controllers\\SanPhamsController.cs",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\SanPhamsController.cs",
               "RelativeToolTip": "Controllers\\SanPhamsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,9 +124,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Create.cshtml",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\DuAns\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\DuAns\\Create.cshtml",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Create.cshtml",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\DuAns\\Create.cshtml",
               "RelativeToolTip": "Views\\DuAns\\Create.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -141,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Details.cshtml",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\DuAns\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\DuAns\\Details.cshtml",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Views\\DuAns\\Details.cshtml",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Views\\DuAns\\Details.cshtml",
               "RelativeToolTip": "Views\\DuAns\\Details.cshtml",
               "ViewState": "AQIAAB0AAAAAAAAAAAAAACwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -153,9 +157,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "DuAnsController.cs",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\DuAnsController.cs",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\DuAnsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DuAnsController.cs",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\DuAnsController.cs",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\DuAnsController.cs",
               "RelativeToolTip": "Controllers\\DuAnsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,9 +169,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -177,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\ngay 22_11\\Koi Pond Construction (1)\\KoiPond\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ngay 22_11\\New folder\\KoiPond\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
