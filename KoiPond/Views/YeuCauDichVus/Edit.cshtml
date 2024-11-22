@@ -81,6 +81,11 @@
                             <span asp-validation-for="MaNhanVien" class="text-danger"></span>
                         </div>
 
+                        <div class="col-12 col-sm-6">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" readonly="readonly" type="text" class="form-control bg-light border-0" style="height: 55px;" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
 
                         <div class="col-12 col-sm-6">
                             <label asp-for="TrangThaiDichVu" class="form-label">Trạng thái yêu cầu</label>
